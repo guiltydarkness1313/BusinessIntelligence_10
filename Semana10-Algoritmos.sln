@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Semana10-Algoritmos", "Semana10-Algoritmos\Semana10-Algoritmos.dwproj", "{BFFB79E8-E776-4D7A-AC88-AE7C770996F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFB79E8-E776-4D7A-AC88-AE7C770996F9}.Development|Default.ActiveCfg = Development
+		{BFFB79E8-E776-4D7A-AC88-AE7C770996F9}.Development|Default.Build.0 = Development
+		{BFFB79E8-E776-4D7A-AC88-AE7C770996F9}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC76DB75-418B-4D1C-A567-198822363829}
+	EndGlobalSection
+EndGlobal
