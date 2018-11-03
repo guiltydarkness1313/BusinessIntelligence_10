@@ -6,10 +6,43 @@
     <Name>Semana10-Algoritmos.database</Name>
     <FullPath>Semana10-Algoritmos.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Base2008_connection.ds</Name>
+      <FullPath>Base2008_connection.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Base2008_views.dsv</Name>
+      <FullPath>Base2008_views.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <MiningModels>
+    <ProjectItem>
+      <Name>customer analysis.dmm</Name>
+      <FullPath>customer analysis.dmm</FullPath>
+    </ProjectItem>
+  </MiningModels>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Base2008_connection</Id>
+            <Name>Base2008_connection</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=ASUS-OSAKA;Persist Security Info=True;Password=;User ID=;Initial Catalog=Base2008</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Base2008_connection</Id>
+            <Name>Base2008_connection</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
